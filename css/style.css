@@ -10,7 +10,7 @@ body {
   font-family: 'Nunito', sans-serif;
   font-size: 14px;
   font-weight: 300;
-  /* weight: regular */
+  /* weight: light */
   line-height: 1.6;
   color: #333333
 }
@@ -39,13 +39,19 @@ h4 {
   font-weight: 400;
 }
 
-h5 {
+p.mini-title {
   font-size: 0.875em;
   font-weight: 700;
   line-heigh: 1;
   letter-spacing: 0.02em;
   text-transform: uppercase;
 }
+
+/* Q: this id specificity doesn't work? but when I apply img{width:100%;} as course suggested, all my images on mobile view will blow up to screen width, including logo and etc. */
+img #projects{
+  width: 100%;
+}
+
 
 a {
   color: #C34E1E;
@@ -68,13 +74,14 @@ a:active {
   color: #EB632B;
 }
 
+
 .button {
   display: inline-block;
   background-color: #C34E1E;
   color: #F8F8F8;
   font-weight: 600;
   text-transform: uppercase;
-padding: 12px 40px;
+  padding: 12px 40px;
   border-radius: 12px;
   transition: 0.2s opacity;
 }
