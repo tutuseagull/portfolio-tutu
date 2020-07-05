@@ -1,3 +1,13 @@
+/*
+Color used:
+Primary: Orange #C34E1E
+Secondary: Navy #2D3573
+Background: Light grey #F8F8F8
+Text: Dark #333333
+*/
+
+
 body {
+  font-family:'Nunito', sans-serif;
   background-color: #F8F8F8;
 }
