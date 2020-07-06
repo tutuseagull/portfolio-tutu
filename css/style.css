@@ -46,13 +46,15 @@ p.mini-title {
   letter-spacing: 0.02em;
   text-transform: uppercase;
 }
-h2#contact{
-  font-size: 1.35em;
-}
+
 
 /* Q: this id specificity doesn't work? but when I apply img{width:100%;} as course suggested, all my images on mobile view will blow up to screen width, including logo and etc. */
 img #projects{
   width: 100%;
+}
+
+header {
+  background-color: #ACB3E5;  /* temporary color block */
 }
 
 
