@@ -54,7 +54,28 @@ img #projects{
 }
 
 header {
-  background-color: #ACB3E5;  /* temporary color block */
+  /* background-color: #333333;   temporary color block */
+  padding: 20px;
+  margin: 30px;
+  /* border-width: 10px; I am curious when people will need border. For actual solid border? */
+}
+
+nav {
+
+}
+
+main {
+  padding: 20px;
+  margin: 30px;
+}
+
+footer{
+  padding: 20px;
+  margin: 40px 30px;
+}
+
+ul {
+
 }
 
 
