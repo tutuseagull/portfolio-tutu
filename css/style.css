@@ -5,7 +5,6 @@ Secondary: Navy #2D3573
 Background: Light grey #F8F8F8
 Text: Dark #333333
 */
-
 /*color and typography ------------------ */
 body {
   background-color: #F8F8F8;
@@ -50,10 +49,13 @@ p.mini-title {
 }
 
 /* Layout and grids ------------------ */
-
 /* !Q: this id specificity doesn't work? but when I apply img{width:100%;} as course suggested, all my images on mobile view will blow up to screen width, including logo and etc. */
-img #projects{
+img #projects {
   width: 100%;
+}
+
+.hidden {
+  display:none;
 }
 
 header {
@@ -63,26 +65,21 @@ header {
   /* border-width: 10px; I am curious when people will need border. For actual solid border? */
 }
 
-nav {
-
-}
+nav {}
 
 main {
   padding: 20px;
   margin: 30px;
 }
 
-footer{
+footer {
   padding: 20px;
   margin: 40px 30px;
 }
 
-ul {
-
-}
+ul {}
 
 /* Hyperlink and buttons ------------------ */
-
 a {
   color: #C34E1E;
   text-decoration: none;
@@ -133,6 +130,7 @@ a:active {
 
 /* Secondary button ------------------ */
 .button.secondary {
+  display: inline-block;
   background-color: transparent;
   color: #C34E1E;
   text-transform: uppercase;
