@@ -99,6 +99,24 @@ nav {
   /* position: fixed; */
 }
 
+#hero {
+  /*  background-color: #E5E5E5; */
+  padding: 20px 0;
+}
+
+#hero-contact {
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#contact {
+  text-align: center;
+}
+
+
+/* list style ------------------ */
+
 nav>ul {
   list-style-type: none;
   /* remove bullet point */
@@ -125,22 +143,6 @@ nav>ul>li>a:hover {
   color: #2D3573;
   text-decoration: none;
 }
-
-#hero {
-  /*  background-color: #E5E5E5; */
-  padding: 20px 0;
-}
-
-#hero-contact {
-  padding: 20px 0;
-  display: inline-block;
-  width: 100%;
-}
-
-#contact {
-  text-align: center;
-}
-
 
 #ssn ul {
   list-style-type: none;
