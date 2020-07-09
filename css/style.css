@@ -56,27 +56,9 @@ p.mini-title {
 
 /* Layout styling */
 
-header {
-  padding: 20px;
-  margin: 30px;
+.container {
+  padding: 0 15px;
 }
-
-nav {
-  position: fixed;
-}
-
-main {
-  padding: 20px;
-  margin: 30px;
-}
-
-footer {
-  padding: 20px;
-  margin: 40px 30px;
-}
-
-ul {}
-
 
 /* Section details */
 #projects img{
