@@ -60,13 +60,18 @@ p.mini-title {
   padding: 0 15px;
 }
 
-/* Section details */
-#projects img{
-  width: 100%;
+.row {
+  margin: 25px 0;
 }
 
-#projects section{
-  padding-top: 20px;
+#projects .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #E5E5E5;
+}
+
+/* Title and img */
+#projects img{
+  width: 100%;
 }
 
 .hidden {
