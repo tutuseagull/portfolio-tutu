@@ -5,8 +5,6 @@ Secondary: Navy #2D3573
 Background: Light grey #F8F8F8
 Text: Dark #333333
 */
-
-
 * {
   box-sizing: border-box;
 }
@@ -55,7 +53,6 @@ p.mini-title {
 }
 
 /* Layout styling */
-
 .container {
   padding: 0 15px;
 }
@@ -69,15 +66,83 @@ p.mini-title {
   border-bottom: 1px solid #E5E5E5;
 }
 
-/* Title and img */
-#projects img{
+header {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  background-color: #F8F8F8;
+  position: fixed;
+  width: 100%;
+  /* -webkit-box-shadow: 1px 1px 8px 0px rgba(50, 50, 50, 0.25);
+  -moz-box-shadow: 1px 1px 8px 0px rgba(50, 50, 50, 0.25);
+  box-shadow: 1px 1px 8px 0px rgba(50, 50, 50, 0.25); */
+  /* drop shadow */
+}
+
+/* Q: this didn't work as I expected */
+main {
+  padding-top: 136px;
+}
+
+nav {
+  display: inline-block;
+  /* position: fixed; */
+}
+
+nav>ul {
+  list-style-type: none;
+  /* remove bullet point */
+  padding: 0;
+}
+
+nav>ul>li {
+  display: inline-block;
+  /* get the list items in one row */
+}
+
+nav>ul>li>a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #C34E1E;
+}
+
+nav>ul>li>a:visited {
+  color: #C34E1E;
+}
+
+nav>ul>li>a:hover {
+  color: #2D3573;
+  text-decoration: none;
+}
+
+#hero {
+  /*  background-color: #E5E5E5; */
+  padding: 20px 0;
+}
+
+#hero-contact {
+  padding: 20px 0;
+  display: inline-block;
   width: 100%;
 }
 
-.hidden {
-  display:none;
+/* Title and img */
+.logo {
+  max-width: 70px;
 }
 
+#projects img {
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
 
 /* Hyperlink and buttons ------------------ */
 a {
