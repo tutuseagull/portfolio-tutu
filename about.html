@@ -23,10 +23,10 @@
       <a href="index.html"><img src="img/home/Logo-142x100.png" class="logo" alt="Tutu Logo"></a>
       <nav>
         <ul>
-          <li><a href="index.html#projects">Projects</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="index.html#projects" target="_self">Projects</a></li>
+          <li><a href="about.html" target="_self">About</a></li>
           <!-- To add in the future <li><a href="#">News</a></li>  -->
-          <li><a href="#contact">Contact!</a></li>
+          <li><a href="#contact" target="_self">Contact!</a></li>
         </ul>
       </nav>
     </div>
@@ -40,9 +40,9 @@
     </div>
 
     <div>
-      <div>
+      <div class="container">
 
-        <picture>
+        <picture id="my-profile">
           <source srcset="img/home/head@1.png" media="(max-width:767px)">
           <img src="img/home/head@2.png" alt="Profile picture" width="400">
         </picture>
@@ -68,14 +68,14 @@
           </section> <!-- my intro ends -->
 
 
-          <section id="skills">
+          <section id="skills" class="container">
             <!-- column 2: skills starts -->
 
             <h2>Skills & Tools</h2>
 
-            <div>
+            <div class="row">
               <img src="img/icons/uxdesign.png" alt="ux design icon" width="32">
-              <h3>UX/UI Design</h3>
+              <h3 class="skill">UX/UI Design</h3>
               <ul>
                 <li>User research/synthesis/test</li>
                 <li>Lo-fi & hi-fi prototype/design system</li>
@@ -84,9 +84,9 @@
               </ul>
             </div>
 
-            <div>
+            <div class="row">
               <img src="img/icons/cocreation.png" alt="co-creation icon" width="32">
-              <h3>Co-creation</h3>
+              <h3 class="skill">Co-creation</h3>
               <ul>
                 <li>Design Sprint/Design Thinking</li>
                 <li>Future thinking frameworks</li>
@@ -94,9 +94,9 @@
               </ul>
             </div>
 
-            <div>
+            <div class="row">
               <img src="img/icons/making.png" alt="2D 3D making icon" width="32">
-              <h3>2D + 3D Making</h3>
+              <h3 class="skill">2D + 3D Making</h3>
               <ul>
                 <li>Photoshop/Illustrator/Indesign</li>
                 <li>Photography/Lightroom/Premiere</li>
@@ -118,11 +118,12 @@
       <!-- the footer content wrapper -->
       <h2> I have more to share </h2>
       <p>I would also love to learn more from you through a <a href="skype:tutu.yunwen">Skype call</a>. You can also reach me via email: </p>
-      <div><a href="mailto:yunwentu22@gmail.com"> yunwentu22@gmail.com </a></div>
+      <div><a href="mailto:yunwentu22@gmail.com" class="button secondary">Email me</a></div>
 
-      <div>
+      <div id="ssn">
         <ul>
-          <li><a href="https://www.linkedin.com/in/tuyunwen/" target="_blank"><img src="img/icons/linkedin.png" alt="LinkedIn icon" width="32"></a></li>
+          <!-- Note: I am aware of the course suggests us to use svg icons here. I use the png format because I don't know how to export the drawing into svg files in that sketching tool. -->
+          <li> <a href="https://www.linkedin.com/in/tuyunwen/" target="_blank"><img src="img/icons/linkedin.png" alt="LinkedIn icon" width="32"></a></li>
           <li><a href="https://www.instagram.com/tutu.fooddesign/?hl=en" target="_blank"><img src="img/icons/instagram.png" alt="Instagram icon" width="32"></a></li>
           <li><a href="https://medium.com/@yunwentu22" target="_blank"><img src="img/icons/medium.png" alt="Medium icon" width="32"></a></li>
           <li><a href="https://github.com/tutuseagull" target="_blank"><img src="img/icons/github.png" alt="GitHub icon" width="32"></a></li>
