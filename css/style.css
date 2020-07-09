@@ -5,6 +5,12 @@ Secondary: Navy #2D3573
 Background: Light grey #F8F8F8
 Text: Dark #333333
 */
+
+
+* {
+  box-sizing: border-box;
+}
+
 /*color and typography ------------------ */
 body {
   background-color: #F8F8F8;
@@ -48,16 +54,16 @@ p.mini-title {
   text-transform: uppercase;
 }
 
-/* Layout and grids ------------------ */
+/* Layout styling */
 
 header {
-  /* background-color: #333333;   temporary color block */
   padding: 20px;
   margin: 30px;
-  /* border-width: 10px; I am curious when people will need border. For actual solid border? */
 }
 
-nav {}
+nav {
+  position: fixed;
+}
 
 main {
   padding: 20px;
