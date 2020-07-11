@@ -90,7 +90,6 @@ header {
   /* drop shadow */
 }
 
-/* Q: this didn't work as I expected */
 main {
   padding-top: 136px;
 }
@@ -100,9 +99,6 @@ nav {
   /* position: fixed; */
 }
 
-#hero {
-  padding: 20px 0;
-}
 
 #hero-contact {
   padding: 20px 0;
@@ -167,13 +163,12 @@ nav>ul>li>a:hover {
   width: 100%;
 }
 
-
 #my-profile img {
   width: 80%;
 }
 
-#skills h2 {
-
+#hero-intro {
+  
 }
 
 h3.skill {
