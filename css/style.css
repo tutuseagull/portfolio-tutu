@@ -2,8 +2,9 @@
 Color used:
 Primary: Orange #C34E1E
 Secondary: Navy #2D3573
-Background: Light grey #F8F8F8
+Background: Light grey #FDFDFD
 Text: Dark #333333
+Footer background: #F8F6F5
 */
 * {
   box-sizing: border-box;
@@ -11,7 +12,7 @@ Text: Dark #333333
 
 /*color and typography ------------------ */
 body {
-  background-color: #F8F8F8;
+  background-color: #FDFDFD;
   font-family: 'Nunito', sans-serif;
   font-size: 14px;
   font-weight: 300;
@@ -80,7 +81,7 @@ header {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 10px;
-  background-color: #F8F8F8;
+  background-color: #FDFDFD;
   position: fixed;
   width: 100%;
   /* -webkit-box-shadow: 1px 1px 8px 0px rgba(50, 50, 50, 0.25);
@@ -100,7 +101,6 @@ nav {
 }
 
 #hero {
-  /*  background-color: #E5E5E5; */
   padding: 20px 0;
 }
 
@@ -220,7 +220,7 @@ a:active {
 .button {
   display: inline-block;
   background-color: #C34E1E;
-  color: #F8F8F8;
+  color: #FDFDFD;
   font-weight: 600;
   text-transform: uppercase;
   padding: 12px 40px;
@@ -229,7 +229,7 @@ a:active {
 }
 
 .button:visited {
-  color: #F8F8F8;
+  color: #FDFDFD;
 }
 
 .button:hover {
