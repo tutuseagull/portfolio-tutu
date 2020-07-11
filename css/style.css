@@ -4,7 +4,7 @@ Primary: Orange #C34E1E
 Secondary: Navy #2D3573
 Background: Light grey #FDFDFD
 Text: Dark #333333
-Footer background: #F8F6F5
+Header and footer background: #F8F6F5
 */
 * {
   box-sizing: border-box;
@@ -14,7 +14,7 @@ Footer background: #F8F6F5
 body {
   background-color: #FDFDFD;
   font-family: 'Nunito', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 300;
   /* weight: light */
   line-height: 1.6;
@@ -26,23 +26,23 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 3em;
-  font-weight: 300;
-}
-
-h2 {
-  font-size: 2.25em;
+  font-size: 3.75em;
   font-weight: 600;
 }
 
+h2 {
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
 h3 {
-  font-size: 1.75em;
+  font-size: 2em;
   font-weight: 600;
 }
 
 h4 {
-  font-size: 1.35em;
-  font-weight: 400;
+  font-size: 1.25em;
+  font-weight: 700;
 }
 
 p.mini-title {
@@ -62,26 +62,11 @@ p.mini-title {
   margin: 25px 0;
 }
 
-#projects .row {
-  padding-bottom: 25px;
-  border-bottom: 1px solid #E5E5E5;
-}
-
-#intro-details .row {
-  padding-bottom: 25px;
-  border-bottom: 1px solid #E5E5E5;
-}
-
-#skills .row {
-  margin: 15px 0;
-}
-
-
 header {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 10px;
-  background-color: #FDFDFD;
+  background-color: #F8F6F5;
   position: fixed;
   width: 100%;
   /* -webkit-box-shadow: 1px 1px 8px 0px rgba(50, 50, 50, 0.25);
@@ -99,6 +84,26 @@ nav {
   /* position: fixed; */
 }
 
+footer {
+  background-color: #F8F6F5;
+  padding: 20px 0;
+}
+
+#projects .row {
+  padding-bottom: 25px;
+}
+
+#intro-details .row {
+  padding-bottom: 25px;
+}
+
+#skills .row {
+  margin: 15px 0;
+}
+
+#hero, #about-me {
+  background-color: #F8F6F5;
+}
 
 #hero-contact {
   padding: 20px 0;
@@ -106,9 +111,21 @@ nav {
   width: 100%;
 }
 
+#projects {
+  background-color: #FDFDFD;
+  padding-top: 20px;
+}
+
 #contact {
   text-align: center;
 }
+
+#skills {
+  padding: 20px 0;
+  background-color: #FDFDFD;
+}
+
+
 
 
 /* list style ------------------ */
@@ -122,6 +139,7 @@ nav>ul {
 nav>ul>li {
   display: inline-block;
   /* get the list items in one row */
+  font-size: 0.875em;
 }
 
 nav>ul>li>a {
@@ -153,6 +171,11 @@ nav>ul>li>a:hover {
   padding: 20px 10px;
 }
 
+#skills ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 
 /* Title and img */
 .logo {
@@ -167,19 +190,30 @@ nav>ul>li>a:hover {
   width: 80%;
 }
 
-#hero-intro {
-  
+.hero-intro, .brief {
+  font-size: 1.5em;
+  font-weight: 300;
+  line-height: 1.6;
 }
 
-h3.skill {
+a.hero-intro {
+  font-weight: 600;
+}
+
+.brief {
+  font-size: 1.25em;
+}
+
+#skills h2 {
+  font-size: 3.5em;
+  font-weight: 600;
+}
+
+h3.tool {
   display: inline-block;
   padding: 0 10px;
 }
 
-#skills h2 {
-  display: block;
-  padding: 20px 0 0 0;
-}
 
 .center {
   text-align: center;
