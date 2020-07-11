@@ -31,8 +31,8 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5em;
-  font-weight: 400;
+  font-size: 3.75em;
+  font-weight: 600;
 }
 
 h3 {
@@ -61,6 +61,7 @@ p.mini-title {
 .row {
   margin: 25px 0;
 }
+
 
 header {
   text-align: center;
@@ -187,7 +188,7 @@ nav>ul>li>a:hover {
 }
 
 #my-profile img {
-  width: 80%;
+  width: 50%;
 }
 
 .hero-intro, .brief {
@@ -204,9 +205,8 @@ a.hero-intro {
   font-size: 1.25em;
 }
 
-#skills h2 {
-  font-size: 3.5em;
-  font-weight: 600;
+#contact h2 {
+  font-size: 2em;
 }
 
 h3.tool {
@@ -214,6 +214,9 @@ h3.tool {
   padding: 0 10px;
 }
 
+#profile-img img {
+  width: 50%;
+}
 
 .center {
   text-align: center;
