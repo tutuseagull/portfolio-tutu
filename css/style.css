@@ -67,7 +67,7 @@ header {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 10px;
-  background-color: #F8F6F5;
+  background-color: #FDFDFD;
   position: fixed;
   width: 100%;
   /* -webkit-box-shadow: 1px 1px 8px 0px rgba(50, 50, 50, 0.25);
@@ -98,12 +98,9 @@ footer {
   padding-bottom: 25px;
 }
 
-#skills .row {
-  margin: 15px 0;
-}
 
-#hero, #about-me {
-  background-color: #F8F6F5;
+#hero {
+  background-color: #FDFDFD;
 }
 
 #hero-contact {
@@ -112,13 +109,18 @@ footer {
   width: 100%;
 }
 
-#projects {
-  background-color: #FDFDFD;
-  padding-top: 20px;
+#project-1, #intro-details-2 {
+  background-color: #F8F6F5;
+  padding: 10px 0;
 }
 
 #contact {
   text-align: center;
+}
+
+#intro-details-1{
+  padding-bottom: 30px;
+  background-color: #FDFDFD;
 }
 
 #skills {
@@ -187,8 +189,19 @@ nav>ul>li>a:hover {
   width: 100%;
 }
 
+/*
+#project-1 img {
+  float: left;
+}
+
+#project-2 img {
+  float: right;
+}
+*/
+
 #my-profile img {
   width: 50%;
+  float:left;
 }
 
 .hero-intro, .brief {
