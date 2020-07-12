@@ -70,10 +70,6 @@ header {
   background-color: #FDFDFD;
   position: fixed;
   width: 100%;
-  /* -webkit-box-shadow: 1px 1px 8px 0px rgba(50, 50, 50, 0.25);
-  -moz-box-shadow: 1px 1px 8px 0px rgba(50, 50, 50, 0.25);
-  box-shadow: 1px 1px 8px 0px rgba(50, 50, 50, 0.25); */
-  /* drop shadow */
 }
 
 main {
@@ -247,14 +243,14 @@ a {
 }
 
 a:visited {
-  color: #905036;
+  color: #C34E1E;
 }
 
 a:hover,
 a:focus {
-  color: #2D3573;
-  text-decoration: underline;
-  text-decoration-color: #ACB3E5;
+  color: #905036;
+/*  text-decoration: underline;
+  text-decoration-color: #ACB3E5; */
 }
 
 a:active {
@@ -327,7 +323,24 @@ Large devices (1024px and larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
 
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+
 }
+
+nav {
+  width: auto;
+  float: right;
+  margin-top: 4px;
+}
+
+.logo {
+  float: left;
+}
+
 
 
 /* ==============================
