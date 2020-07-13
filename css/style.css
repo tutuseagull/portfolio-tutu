@@ -14,7 +14,7 @@ Header and footer background: #F8F6F5
 body {
   background-color: #FDFDFD;
   font-family: 'Nunito', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
   /* weight: light */
   line-height: 1.6;
@@ -22,26 +22,26 @@ body {
 }
 
 h1, h2, h3, h4 {
-  line-height: 1.4;
+  line-height: 1.2;
 }
 
 h1 {
-  font-size: 3.75em;
+  font-size: 3em;
   font-weight: 600;
 }
 
 h2 {
-  font-size: 3.75em;
+  font-size: 3em;
   font-weight: 600;
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: 600;
 }
 
 h4 {
-  font-size: 1.25em;
+  font-size: 1.15em;
   font-weight: 700;
 }
 
@@ -73,7 +73,7 @@ header {
 }
 
 main {
-  padding-top: 136px;
+  padding-top: 126px;
 }
 
 nav {
@@ -89,11 +89,6 @@ footer {
 #projects .row {
   padding-bottom: 25px;
 }
-
-#intro-details .row {
-  padding-bottom: 25px;
-}
-
 
 #hero {
   background-color: #FDFDFD;
@@ -115,7 +110,7 @@ footer {
 }
 
 #intro-details-1{
-  padding-bottom: 30px;
+  padding-bottom: 40px;
   background-color: #FDFDFD;
 }
 
@@ -176,9 +171,10 @@ nav>ul>li>a:hover {
 }
 
 
-/* Title and img */
+/* Title and img -------------------- */
+
 .logo {
-  max-width: 70px;
+  max-width: 50px;
 }
 
 #projects img {
@@ -218,8 +214,14 @@ a.hero-intro {
   font-size: 2em;
 }
 
+#skills img {
+  max-width: 32px;
+}
+
+
 h3.tool {
   display: inline-block;
+  margin: auto;
   padding: 0 10px;
 }
 
@@ -261,16 +263,17 @@ a:active {
 .button {
   display: inline-block;
   background-color: #C34E1E;
-  color: #FDFDFD;
+  color: #FFFFFF;
+font-size: 1em;
   font-weight: 600;
   text-transform: uppercase;
-  padding: 12px 40px;
+  padding: 10px 30px;
   border-radius: 12px;
   transition: 0.2s opacity;
 }
 
 .button:visited {
-  color: #FDFDFD;
+  color: #FFFFFF;
 }
 
 .button:hover {
@@ -291,7 +294,7 @@ a:active {
   color: #C34E1E;
   text-transform: uppercase;
   box-sizing: border-box;
-  border: 2px solid #C34E1E;
+  border: 2px transparent;
 }
 
 .button.secondary:visited {
@@ -299,21 +302,39 @@ a:active {
 }
 
 .button.secondary:hover {
-  background-color: #EB632B;
-  color: #ffffff;
+  color: #C34E1E;
   text-decoration: none;
-  border: 2px solid #EB632B;
+  border: 2px solid #C34E1E;
 }
 
 .button.secondary:active {
-  background-color: #915036;
-  color: #ffffff;
+  color: #915036;
+  border: 2px solid #915036;
 }
 
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
+
+    header {
+      text-align: unset;
+      padding: 20px 0 13px;
+    }
+
+    nav {
+      width: auto;
+      float: right;
+      margin-top: 4px;
+    }
+
+body{
+  font-size: 12pt;
+}
+
+.col-md-6 {
+  width: 50%;
+}
 }
 
 
@@ -323,23 +344,9 @@ Large devices (1024px and larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
 
-  header {
-    text-align: unset;
-    padding: 20px 0 13px;
-  }
-
-
 }
 
-nav {
-  width: auto;
-  float: right;
-  margin-top: 4px;
-}
 
-.logo {
-  float: left;
-}
 
 
 
