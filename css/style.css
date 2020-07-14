@@ -318,18 +318,14 @@ Medium devices (640px and larger)
     font-size: 12pt;
   }
 
-h2 {
-  padding-top: 20px;
-}
+  h2 {
+    padding-top: 20px;
+  }
 
-.container {
-  margin: 0 15px;
-  padding-top: 10px;
-}
-
-#projects {
-  padding-top: 30px;
-}
+  .container {
+    margin: 0 15px;
+    padding-top: 10px;
+  }
 
   .col-md-6 {
     width: 50%;
@@ -340,29 +336,69 @@ h2 {
     float: left;
   }
 
-.row::after {
-    content:"";
+  .row::after {
+    content: "";
     clear: both;
     display: table;
   }
 
-#profile-img img {
-max-width: 30%;
-}
+  #projects {
+    padding-top: 30px;
+  }
 
+  #profile-img img {
+    max-width: 30%;
+  }
+
+  #about-page h3 {
+    margin-top: 0;
+  }
 }
 
 /* ==============================
 Large devices (1024px and larger)
 ================================= */
-@media only screen and (min-width: 1024px) {}
+@media only screen and (min-width: 1024px) {
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
 
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+  body {
+    font-size: 14pt;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+  }
+
+  .col-lg-7 {
+
+  }
+
+  [class*="col-"] {
+    float: left;
+  }
+
+
+  #projects {
+    padding-top: 30px;
+  }
+}
 
 /* ==============================
 XL devices (1440px and larger)
 ================================= */
 @media only screen and (min-width: 1440px) {}
-
 
 /* ==============================
 Extra-large devices (1920px or larger)
