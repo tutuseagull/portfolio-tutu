@@ -415,6 +415,10 @@ Large devices (1024px and larger)
     display: table;
   }
 
+  .logo {
+    max-width: 70px;
+  }
+  
   #projects {
     padding-top: 30px;
   }
@@ -482,6 +486,10 @@ XL devices (1440px and larger)
     clear: both;
     display: table;
   }
+
+.logo {
+  max-width: 70px;
+}
 
   #projects {
     padding-top: 30px;
