@@ -210,6 +210,10 @@ a.hero-intro {
   max-width: 32px;
 }
 
+.transparent {
+  visibility: hidden;
+}
+
 h3.tool {
   display: inline-block;
   margin: auto;
@@ -303,6 +307,10 @@ a:active {
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
+  [class*="col-"] {
+    float: left;
+  }
+
   header {
     text-align: unset;
     padding: 20px 0 13px;
@@ -332,10 +340,6 @@ Medium devices (640px and larger)
     padding: 0 10px;
   }
 
-  [class*="col-"] {
-    float: left;
-  }
-
   .row::after {
     content: "";
     clear: both;
@@ -347,7 +351,7 @@ Medium devices (640px and larger)
   }
 
   #profile-img img {
-    max-width: 30%;
+    display: none;
   }
 
   #about-page h3 {
@@ -359,6 +363,10 @@ Medium devices (640px and larger)
 Large devices (1024px and larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
+  [class*="col-"] {
+    float: left;
+  }
+
   header {
     text-align: unset;
     padding: 20px 0 13px;
@@ -381,24 +389,110 @@ Large devices (1024px and larger)
     padding-top: 10px;
   }
 
+  .col-lg-4 {
+    width: 33.33%;
+    padding: 0 10px;
+  }
+
+  .col-lg-5 {
+    width: 41.66%;
+    padding: 0 10px;
+  }
+
   .col-lg-7 {
-
+    width: 58.33%;
+    padding: 0 10px;
   }
 
-  [class*="col-"] {
-    float: left;
+  .col-lg-8 {
+    width: 66.66%;
+    padding: 0 10px;
   }
 
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
   #projects {
     padding-top: 30px;
   }
+
+  #profile-img img {
+    display: inline-block;
+    max-width: 60%;
+  }
+
 }
 
 /* ==============================
 XL devices (1440px and larger)
 ================================= */
-@media only screen and (min-width: 1440px) {}
+@media only screen and (min-width: 1440px) {
+  [class*="col-"] {
+    float: left;
+  }
+
+  header {
+    text-align: unset;
+    padding: 20px 0 13px;
+  }
+
+  nav {
+    width: auto;
+    float: right;
+    margin-top: 4px;
+  }
+
+  body {
+    font-size: 14pt;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+  }
+
+  /* Q: how do I center the text content horizontally? */
+  .col-lg-4 {
+    width: 33.33%;
+    padding: 0 10px;
+  }
+
+  .col-lg-5 {
+    width: 41.66%;
+    padding: 0 10px;
+  }
+
+  .col-lg-7 {
+    width: 58.33%;
+    padding: 0 10px;
+  }
+
+  .col-lg-8 {
+    width: 66.66%;
+    padding: 0 10px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  #projects {
+    padding-top: 30px;
+  }
+
+  #profile-img img {
+    display: inline-block;
+    max-width: 60%;
+  }
+
+}
 
 /* ==============================
 Extra-large devices (1920px or larger)
