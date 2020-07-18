@@ -260,7 +260,7 @@ a:active {
   text-transform: uppercase;
   padding: 10px 30px;
   border-radius: 12px;
-  transition: 0.2s opacity;
+  transition: 0.3s opacity;
 }
 
 .button:visited {
@@ -285,7 +285,8 @@ a:active {
   color: #C34E1E;
   text-transform: uppercase;
   box-sizing: border-box;
-  border: 2px transparent;
+  border: 2px solid transparent;
+  transition: 0.3s border;
 }
 
 .button.secondary:visited {
@@ -295,6 +296,7 @@ a:active {
 .button.secondary:hover {
   color: #C34E1E;
   text-decoration: none;
+  opacity: 1.0;
   border: 2px solid #C34E1E;
 }
 
@@ -418,7 +420,7 @@ Large devices (1024px and larger)
   .logo {
     max-width: 70px;
   }
-  
+
   #projects {
     padding-top: 30px;
   }
@@ -427,7 +429,6 @@ Large devices (1024px and larger)
     display: inline-block;
     max-width: 60%;
   }
-
 }
 
 /* ==============================
@@ -487,9 +488,9 @@ XL devices (1440px and larger)
     display: table;
   }
 
-.logo {
-  max-width: 70px;
-}
+  .logo {
+    max-width: 70px;
+  }
 
   #projects {
     padding-top: 30px;
@@ -499,7 +500,6 @@ XL devices (1440px and larger)
     display: inline-block;
     max-width: 60%;
   }
-
 }
 
 /* ==============================
