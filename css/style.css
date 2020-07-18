@@ -228,6 +228,11 @@ h3.tool {
   display: none;
 }
 
+/* tansition on the same page */
+.bookmark {
+
+}
+
 /* Hyperlink and buttons ------------------ */
 a {
   color: #C34E1E;
