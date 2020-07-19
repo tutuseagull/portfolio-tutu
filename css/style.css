@@ -235,9 +235,7 @@ h3.tool {
 }
 
 /* tansition on the same page */
-.bookmark {
-
-}
+.bookmark {}
 
 /* Hyperlink and buttons ------------------ */
 a {
@@ -315,6 +313,69 @@ a:active {
   color: #915036;
   border: 2px solid #915036;
 }
+
+/* animation ------------------- */
+@@keyframes color-change {
+  0% {
+    fill: #C34E1E;
+  }
+
+  20% {
+    fill: #c0362c;
+  }
+
+  100% {
+    fill: #c47365;
+  }
+}
+
+@keyframes cloud-move {
+  from {
+    transform: translate(0, 0);
+  }
+
+  to {
+    transform: translate(200px, 0);
+  }
+}
+
+@keyframes fog-move {
+  from {transform: translate(-10px,0);}
+  to {transform: translate(0, 0);}
+}
+
+.bridge {
+  animation-duration: 4s;
+  animation-name: color-change;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+.cloud-1 {
+  animation-duration: 25s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+.cloud-2 {
+  animation-duration: 15s;
+  animation-name: cloud-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: linear;
+}
+
+.fog {
+  animation-duration: 3s;
+  animation-name: fog-move;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease;
+}
+
 
 /* ==============================
 Medium devices (640px and larger)
