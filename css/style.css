@@ -4,7 +4,7 @@ Primary: Orange #C34E1E
 Secondary: Navy #2D3573
 Background: Light grey #FDFDFD
 Text: Dark #333333
-Header and footer background: #F8F6F5
+Footer background: Ivory #F8F6F5
 */
 * {
   box-sizing: border-box;
@@ -119,6 +119,7 @@ footer {
 }
 
 /* list style ------------------ */
+
 nav>ul {
   list-style-type: none;
   /* remove bullet point */
@@ -135,7 +136,6 @@ nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 600;
-  color: #C34E1E;
 }
 
 nav>ul>li>a:visited {
@@ -143,8 +143,7 @@ nav>ul>li>a:visited {
 }
 
 nav>ul>li>a:hover {
-  color: #2D3573;
-  text-decoration: none;
+  color: #905036;
 }
 
 #ssn ul {
@@ -314,8 +313,13 @@ a:active {
   border: 2px solid #915036;
 }
 
+/* index svg css (default code from the svg file) -------------- */
+
+
 /* animation ------------------- */
-@@keyframes color-change {
+
+
+@keyframes color-change {
   0% {
     fill: #C34E1E;
   }
@@ -344,6 +348,7 @@ a:active {
   to {transform: translate(0, 0);}
 }
 
+/* color-change doesn't work for my svg. Is it caused by the svg color-fill class (".st2, .st8")? */
 .bridge {
   animation-duration: 4s;
   animation-name: color-change;
@@ -462,6 +467,7 @@ Large devices (1024px and larger)
     margin-right: auto;
     padding-top: 10px;
   }
+
 
   .col-lg-4 {
     width: 33.33%;
