@@ -99,7 +99,7 @@ footer {
   width: 100%;
 }
 
-#project-1, #intro-details-2 {
+#project-1, #intro-details-2, {
   background-color: #F8F6F5;
   padding: 10px 0;
 }
@@ -226,6 +226,12 @@ h3.tool {
 
 .hidden {
   display: none;
+}
+
+.berlin-illustration {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 /* tansition on the same page */
