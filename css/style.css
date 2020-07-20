@@ -464,6 +464,8 @@ Large devices (1024px and larger)
     padding: 0 10px;
   }
 
+
+
   .row::after {
     content: "";
     clear: both;
@@ -482,6 +484,11 @@ Large devices (1024px and larger)
     display: inline-block;
     max-width: 60%;
   }
+
+.project-page img {
+  max-width: 100%;
+}
+
 }
 
 /* ==============================
@@ -548,4 +555,9 @@ XL devices (1440px and larger)
     display: inline-block;
     max-width: 60%;
   }
+
+  .project-page img {
+    max-width: 100%;
+  }
+
 }
