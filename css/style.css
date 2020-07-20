@@ -118,7 +118,6 @@ footer {
 }
 
 /* list style ------------------ */
-
 nav>ul {
   list-style-type: none;
   /* remove bullet point */
@@ -135,7 +134,7 @@ nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 600;
-  transition: 0.3s #838383;
+  transition: 0.5s;
 }
 
 nav>ul>li>a:visited {
@@ -229,6 +228,7 @@ a {
   color: #C34E1E;
   text-decoration: none;
   font-weight: 600;
+  transition: 0.5s;
 }
 
 a:visited {
@@ -299,10 +299,7 @@ a:active {
   border: 2px solid #915036;
 }
 
-
 /* animation ------------------- */
-
-
 @keyframes color-change {
   0% {
     fill: #C34E1E;
@@ -328,8 +325,13 @@ a:active {
 }
 
 @keyframes fog-move {
-  from {transform: translate(-10px,0);}
-  to {transform: translate(0, 0);}
+  from {
+    transform: translate(-10px, 0);
+  }
+
+  to {
+    transform: translate(0, 0);
+  }
 }
 
 /* color-change doesn't work for my svg. Is it caused by the svg color-fill class (".st2, .st8")? */
@@ -364,7 +366,6 @@ a:active {
   animation-direction: alternate;
   animation-timing-function: ease;
 }
-
 
 /* ==============================
 Medium devices (640px and larger)
@@ -414,7 +415,6 @@ Medium devices (640px and larger)
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
     grid-gap: 30px;
-
   }
 
   .grid-col-left {
@@ -475,7 +475,6 @@ Large devices (1024px and larger)
     padding-top: 10px;
   }
 
-
   .col-lg-4 {
     width: 33.33%;
     padding: 0 10px;
@@ -502,40 +501,37 @@ Large devices (1024px and larger)
     display: table;
   }
 
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    grid-gap: 50px;
+  }
 
-    .grid-container {
-      display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      justify-content: space-between;
-      grid-gap: 50px;
+  .grid-col1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+  }
 
-    }
+  .grid-col2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+  }
 
-    .grid-col1 {
-      grid-column-start: 1;
-      grid-column-end: 2;
-    }
+  .grid-col3 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+  }
 
-    .grid-col2 {
-      grid-column-start: 2;
-      grid-column-end: 3;
-    }
+  .grid-col12-left {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
 
-    .grid-col3 {
-      grid-column-start: 3;
-      grid-column-end: 4;
-    }
-
-    .grid-col12-left {
-      grid-column-start: 1;
-      grid-column-end: 3;
-    }
-
-    .grid-col23-right {
-      grid-column-start: 2;
-      grid-column-end: 4;
-    }
-
+  .grid-col23-right {
+    grid-column-start: 2;
+    grid-column-end: 4;
+  }
 
   .logo {
     max-width: 70px;
@@ -612,7 +608,6 @@ XL devices (1440px and larger)
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
-
   }
 
   .grid-col1 {
