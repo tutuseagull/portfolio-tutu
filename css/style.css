@@ -480,16 +480,6 @@ Large devices (1024px and larger)
     padding: 0 10px;
   }
 
-  .col-lg-5 {
-    width: 41.66%;
-    padding: 0 10px;
-  }
-
-  .col-lg-7 {
-    width: 58.33%;
-    padding: 0 10px;
-  }
-
   .col-lg-8 {
     width: 66.66%;
     padding: 0 10px;
@@ -580,16 +570,6 @@ XL devices (1440px and larger)
   /* Q: how do I center the text content horizontally? */
   .col-lg-4 {
     width: 33.33%;
-    padding: 0 10px;
-  }
-
-  .col-lg-5 {
-    width: 41.66%;
-    padding: 0 10px;
-  }
-
-  .col-lg-7 {
-    width: 58.33%;
     padding: 0 10px;
   }
 
