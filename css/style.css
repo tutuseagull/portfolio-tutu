@@ -2,9 +2,9 @@
 Color used:
 Primary: Orange #C34E1E
 Secondary: Navy #2D3573
-Background: Light grey #FDFDFD
+Background: Light ivory #FDFDFD
 Text: Dark #333333
-Footer background: Ivory #F8F6F5
+Section background: Ivory #F8F6F5
 */
 * {
   box-sizing: border-box;
@@ -16,7 +16,6 @@ body {
   font-family: 'Nunito', sans-serif;
   font-size: 14px;
   font-weight: 300;
-  /* weight: light */
   line-height: 1.6;
   color: #333333;
 }
@@ -174,15 +173,6 @@ nav>ul>li>a:hover {
   max-width: 100%;
 }
 
-/*
-#project-1 img {
-  float: left;
-}
-
-#project-2 img {
-  float: right;
-}
-*/
 #profile-img img {
   width: 50%;
   float: left;
@@ -228,14 +218,11 @@ h3.tool {
   display: none;
 }
 
-.berlin-illustration {
+.sf-fog {
   width: 100%;
   max-width: 100%;
   height: auto;
 }
-
-/* tansition on the same page */
-.bookmark {}
 
 /* Hyperlink and buttons ------------------ */
 a {
@@ -251,8 +238,6 @@ a:visited {
 a:hover,
 a:focus {
   color: #905036;
-  /*  text-decoration: underline;
-  text-decoration-color: #ACB3E5; */
 }
 
 a:active {
@@ -313,8 +298,6 @@ a:active {
   color: #915036;
   border: 2px solid #915036;
 }
-
-/* index svg css (default code from the svg file) -------------- */
 
 
 /* animation ------------------- */
@@ -580,8 +563,3 @@ XL devices (1440px and larger)
     max-width: 60%;
   }
 }
-
-/* ==============================
-Extra-large devices (1920px or larger)
-================================= */
-@media only screen and (min-width: 1920px) {}
