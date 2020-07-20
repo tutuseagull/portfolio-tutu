@@ -454,13 +454,8 @@ Large devices (1024px and larger)
     padding: 0 10px;
   }
 
-  .col-lg-5 {
-    width: 41.66%;
-    padding: 0 10px;
-  }
-
-  .col-lg-7 {
-    width: 58.33%;
+  .col-lg-6 {
+    width: 50%;
     padding: 0 10px;
   }
 
@@ -525,13 +520,8 @@ XL devices (1440px and larger)
     padding: 0 10px;
   }
 
-  .col-lg-5 {
-    width: 41.66%;
-    padding: 0 10px;
-  }
-
-  .col-lg-7 {
-    width: 58.33%;
+  .col-lg-6 {
+    width: 50%;
     padding: 0 10px;
   }
 
