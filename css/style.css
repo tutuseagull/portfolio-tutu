@@ -134,7 +134,7 @@ nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 600;
-  transition: 0.3s #838383;
+  transition: 0.5s;
 }
 
 nav>ul>li>a:visited {
@@ -224,6 +224,7 @@ a {
   color: #C34E1E;
   text-decoration: none;
   font-weight: 600;
+  transition: 0.5s;
 }
 
 a:visited {
@@ -486,8 +487,6 @@ Large devices (1024px and larger)
     display: inline-block;
     max-width: 60%;
   }
-
-
 }
 
 /* ==============================
@@ -559,5 +558,4 @@ XL devices (1440px and larger)
     display: inline-block;
     max-width: 60%;
   }
-
 }
