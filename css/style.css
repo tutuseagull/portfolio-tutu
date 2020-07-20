@@ -98,7 +98,7 @@ footer {
   width: 100%;
 }
 
-#project-1, #intro-details-2, {
+#project-1, #intro-details-2 {
   background-color: #F8F6F5;
   padding: 10px 0;
 }
@@ -107,7 +107,7 @@ footer {
   text-align: center;
 }
 
-#intro-details-1 {
+#intro-details {
   padding-bottom: 40px;
   background-color: #FDFDFD;
 }
@@ -118,7 +118,6 @@ footer {
 }
 
 /* list style ------------------ */
-
 nav>ul {
   list-style-type: none;
   /* remove bullet point */
@@ -198,10 +197,6 @@ a.hero-intro {
 
 #skills img {
   max-width: 32px;
-}
-
-.transparent {
-  visibility: hidden;
 }
 
 h3.tool {
@@ -299,10 +294,7 @@ a:active {
   border: 2px solid #915036;
 }
 
-
 /* animation ------------------- */
-
-
 @keyframes color-change {
   0% {
     fill: #C34E1E;
@@ -328,8 +320,13 @@ a:active {
 }
 
 @keyframes fog-move {
-  from {transform: translate(-10px,0);}
-  to {transform: translate(0, 0);}
+  from {
+    transform: translate(-10px, 0);
+  }
+
+  to {
+    transform: translate(0, 0);
+  }
 }
 
 /* color-change doesn't work for my svg. Is it caused by the svg color-fill class (".st2, .st8")? */
@@ -364,7 +361,6 @@ a:active {
   animation-direction: alternate;
   animation-timing-function: ease;
 }
-
 
 /* ==============================
 Medium devices (640px and larger)
@@ -452,7 +448,6 @@ Large devices (1024px and larger)
     padding-top: 10px;
   }
 
-
   .col-lg-4 {
     width: 33.33%;
     padding: 0 10px;
@@ -491,6 +486,8 @@ Large devices (1024px and larger)
     display: inline-block;
     max-width: 60%;
   }
+
+
 }
 
 /* ==============================
@@ -562,4 +559,5 @@ XL devices (1440px and larger)
     display: inline-block;
     max-width: 60%;
   }
+
 }
