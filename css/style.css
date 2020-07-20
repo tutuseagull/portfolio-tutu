@@ -136,14 +136,15 @@ nav>ul>li>a {
   padding: 0 15px;
   text-transform: uppercase;
   font-weight: 600;
+  transition: 0.3s #838383;
 }
 
 nav>ul>li>a:visited {
-  color: #C34E1E;
+  color: #838383;
 }
 
 nav>ul>li>a:hover {
-  color: #905036;
+  color: #C34E1E;
 }
 
 #ssn ul {
